@@ -85,10 +85,10 @@ int main(int argc, char** argv)
 
 		//UPDATE (do something...)
 		std::string s = "";
-		s += "UP: " + std::to_string(input.keys[(int)InputKey::UP]) + "\n";
-		s += "DOWN: " + std::to_string(input.keys[(int)InputKey::DOWN]) + "\n";
-		s += "LEFT: " + std::to_string(input.keys[(int)InputKey::LEFT]) + "\n";
-		s += "RIGHT: " + std::to_string(input.keys[(int)InputKey::RIGHT]);
+		s += "UP: "		+ std::to_string(input.keys[(int)InputKey::UP]) + "\n";
+		s += "DOWN: "	+ std::to_string(input.keys[(int)InputKey::DOWN]) + "\n";
+		s += "LEFT: "	+ std::to_string(input.keys[(int)InputKey::LEFT]) + "\n";
+		s += "RIGHT: "	+ std::to_string(input.keys[(int)InputKey::RIGHT]);
 		std::string f = input.keys[(int)InputKey::FIRE] ? "-->BANG<--" : "   ____";
 
 
